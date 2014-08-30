@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+set -x
+cd ${0%/*}  # our directory, /tmp/hooks
+dpkg -i binutils_*.deb binutils-multiarch_*.deb

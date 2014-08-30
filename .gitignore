@@ -1,0 +1,5 @@
+/.vagrant
+/result
+
+/gpl-source-sequoia-*.zip
+/pbuilder-hooks/binutils*.deb
