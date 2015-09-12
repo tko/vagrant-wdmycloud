@@ -7,7 +7,7 @@ DEBIANMIRROR="ftp.nl.debian.org"
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "chef/debian-7.6"
+  config.vm.box = "bento/debian-7.8"
 
   config.vm.provider "virtualbox" do |vm|
       vm.memory = 1024
