@@ -26,6 +26,7 @@ sed -e 's,@DEBIANMIRROR@,#{DEBIANMIRROR},g' < /vagrant/etc/pbuilderrc.tmpl > /et
 EOF
 
   config.vm.provision "shell", inline: <<EOF
+export DEBIAN_FRONTEND=noninteractive
 apt-get update
 
 apt-get -y install qemu-user-static binfmt-support packaging-dev cowbuilder
