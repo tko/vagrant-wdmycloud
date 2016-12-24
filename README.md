@@ -11,12 +11,12 @@ This needs to be done only once.
 
 1. Install [VirtualBox](https://www.virtualbox.org/) (tested with 4.3.14)
 2. Install [Vagrant](https://www.vagrantup.com/downloads.html) (tested with 1.6.3)
-3. Download the package containing custom binutils from [WD Downloads](http://support.wdc.com/product/download.asp?groupid=904&sid=233&lang=en) and extract the binutils packages into `pbuilder-hooks/`
+3. Download the package containing custom binutils from [WD Downloads](http://support.wdc.com/downloads.aspx?p=233) and extract the binutils packages into `pbuilder-hooks/`
     
-    [gpl-source-wd_my_cloud-04.04.01-112.zip](http://download.wdc.com/gpl/gpl-source-wd_my_cloud-04.04.01-112.zip) (574MB) at the time of writing
+    [gpl-source-wd_my_cloud-04.04.03-113.zip](http://downloads.wdc.com/gpl/gpl-source-wd_my_cloud-04.04.03-113.zip) (575MB) at the time of writing
     ```
-curl -O http://download.wdc.com/gpl/gpl-source-wd_my_cloud-04.04.01-112.zip
-./extract-binutils.sh gpl-source-wd_my_cloud-04.04.01-112.zip
+curl -O http://downloads.wdc.com/gpl/gpl-source-wd_my_cloud-04.04.03-113.zip
+./extract-binutils.sh gpl-source-wd_my_cloud-04.04.03-113.zip
     ```
 
 4. Install and start up the virtual machine
